@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    display: block;
+}
+
+#navbar-container{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+#navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8vh;
+    font-weight: bold;font-size: 1.2rem;
+}
+
+#logo-container {
+    
+   justify-items: left;
+}
+
+#logo {
+    
+    width: 15rem;
+    height: 15rem;
+}
+
+#img-home-container{
+    display: flexbox;
+    width: 100%;
+}
+
+#img-home {
+    width: 100%;
+}
+
+#SocialMedia {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+.icon {
+    width: 30px;
+    height: 30px;
+    padding: 2vh;
+}
+
+
