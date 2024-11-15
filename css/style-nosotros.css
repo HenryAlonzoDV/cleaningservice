@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+  padding: 1.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+}
+
+.parrafo {
+  align-items: center;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: justify;
+  width: 95%;
+}
+
+#video_nosotros {
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 940px) {
+  section {
+    flex-direction: column;
+  }
+
+  p{
+    padding: 1rem;
+  }
+  
+  #video_nosotros {
+    display: flex;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+    section {
+        flex-direction: column;
+        width: 90%;
+      }
+
+    #parrafo{
+        justify-content: center;
+    }
+  
+    p{
+      padding-bottom: 1rem;
+    }
+    
+    #video_nosotros {
+      display: flex;
+      padding: 1rem;
+    }
+  
+  }
