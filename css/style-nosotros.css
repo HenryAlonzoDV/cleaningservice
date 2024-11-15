@@ -96,13 +96,18 @@ p {
 
   @media (max-width: 399px) {
 
+    #navbar-container{
+        width: 120%;
+
+    }
+
     h1 {
         width: 110%;
     }
 
     section {
         flex-direction: column;
-        width: 110%;
+        width: 100%;
       }
 
     #video_nosotros {
