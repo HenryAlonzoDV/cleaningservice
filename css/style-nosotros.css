@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
   text-align: center;
   padding: 1.5rem;
@@ -7,7 +12,8 @@ h1 {
 section {
   display: flex;
   flex-direction: row;
-  padding: 12px;
+  padding: 2rem;
+  width: 95%;
 }
 
 .parrafo {
@@ -23,11 +29,18 @@ p {
 #video_nosotros {
   align-items: center;
   justify-content: center;
+  padding-right: 1rem;
+  margin-left: 1rem;
 }
 
-@media (max-width: 940px) {
+
+
+
+@media (max-width: 1070px) {
+
   section {
     flex-direction: column;
+    width: 95%;
   }
 
   p{
@@ -36,28 +49,69 @@ p {
   
   #video_nosotros {
     display: flex;
+    width: 98%;
   }
 
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 710px) {
 
     section {
         flex-direction: column;
         width: 90%;
       }
-
-    #parrafo{
-        justify-content: center;
-    }
   
     p{
       padding-bottom: 1rem;
     }
     
     #video_nosotros {
-      display: flex;
-      padding: 1rem;
+      width: 95%;
+    }
+  
+  }
+
+  @media (max-width: 480px) {
+
+    h1 {
+        width: 100%;
+    }
+
+    section {
+        flex-direction: column;
+        width: 90%;
+      }
+
+    #SocialMedia {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    #video_nosotros {
+        width: 95%;
+      }
+  
+  }
+
+  @media (max-width: 399px) {
+
+    h1 {
+        width: 110%;
+    }
+
+    section {
+        flex-direction: column;
+        width: 110%;
+      }
+
+    #video_nosotros {
+        width: 95%;
+      }
+
+      #SocialMedia {
+        width: 110%;
+        padding: 2rem;
     }
   
   }

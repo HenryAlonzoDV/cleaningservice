@@ -72,3 +72,16 @@ a:hover {
     padding: 2vh;
 }
 
+@media (max-width: 490px) {
+
+    
+
+
+    #SocialMedia {
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        background-color: rgb(95, 180, 25);
+    }
+  
+  }
